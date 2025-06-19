@@ -59,3 +59,31 @@ main {
     text-decoration:underline;
     color: #000;
 }
+
+form {
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    width: 49%;
+    padding: .5rem;
+    margin: .5%;
+    font-size: .92rem;
+}
+
+.inpEmail {
+    width: 100%;
+}
+
+.btnContact {
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    margin-top: .5rem;
+    background-color: #4270a1;
+    border-style: none;
+    color: #fff;
+    font-size: .92rem;
+}
